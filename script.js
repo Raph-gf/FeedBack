@@ -20,7 +20,7 @@ textareaEL.addEventListener("input", inputHandler);
 const formEl = document.querySelector(".form");
 const submitHandler = (e) => {
   e.preventDefault();
-  console.log(1);
+  console.log(2);
 };
 
 formEl.addEventListener("submit", submitHandler);
